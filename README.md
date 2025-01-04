@@ -1,6 +1,7 @@
 # Comparador de Preços
 
 [https://wemmersonal.github.io/price-comparator](PriceComparator)
+
 Este é um projeto simples de comparador de preços que permite ao usuário comparar dois produtos similares e determinar qual é a melhor opção de compra com base no preço por unidade.
 
 ## Funcionalidades
@@ -49,22 +50,6 @@ Este é um projeto simples de comparador de preços que permite ao usuário comp
 
 3. O resultado exibirá qual produto é a melhor opção de compra e o preço que o outro produto deveria custar para ser viável.
 
-## Estilos CSS
-
-Os estilos CSS são definidos no arquivo `style.css` e incluem:
-
-- Estilo para a barra de navegação.
-- Estilo para o container principal.
-- Estilo para as divs dos produtos.
-- Estilo para os inputs e botões.
-- Estilo responsivo para dispositivos móveis.
-
-## Lógica JavaScript
-
-A lógica JavaScript é definida no arquivo `script.js` e inclui:
-
-- Função `comparePrices` para calcular e comparar os preços por unidade dos produtos.
-- Função `resetForm` para limpar os campos do formulário e o resultado.
 
 ## Contribuição
 
