@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Comparador de Preços</title>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        Comparador de Preços
+    </div>
+    <div class="container">
+        <div class="product-container">
+            <div class="product-div">
+                <label for="product1-name">Nome do Produto</label>
+                <input type="text" id="product1-name">
+                <label for="product1-quantity">Quantidade</label>
+                <input type="number" id="product1-quantity">
+                <label for="product1-price">Preço</label>
+                <input type="number" step="0.01" id="product1-price">
+            </div>
+            <div class="product-div">
+                <label for="product2-name">Nome do Produto</label>
+                <input type="text" id="product2-name">
+                <label for="product2-quantity">Quantidade</label>
+                <input type="number" id="product2-quantity">
+                <label for="product2-price">Preço</label>
+                <input type="number" step="0.01" id="product2-price">
+            </div>
+        </div>
+        <button onclick="comparePrices()">Comparar</button>
+        <button onclick="resetForm()">Nova Comparação</button>
+        <div class="result" id="result"></div>
+    </div>
+</body>
+</html>

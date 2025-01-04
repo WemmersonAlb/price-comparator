@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: left;
+}
+.container {
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+}
+.product-div {
+    flex: 1 1 calc(50% - 10px);
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.product-div label {
+    display: block;
+    margin-bottom: 5px;
+}
+.product-div input {
+    width: calc(100% - 16px);
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: #555;
+}
+.result {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+@media (max-width: 600px) {
+    .product-div {
+        flex: 1 1 100%;
+    }
+}
