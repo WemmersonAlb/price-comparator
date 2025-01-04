@@ -1,6 +1,6 @@
 # Comparador de Preços
 
-[https://wemmersonal.github.io/price-comparator](PriceComparator)
+[https://wemmersonalb.github.io/price-comparator/](PriceComparator)
 
 Este é um projeto simples de comparador de preços que permite ao usuário comparar dois produtos similares e determinar qual é a melhor opção de compra com base no preço por unidade.
 
