@@ -1,6 +1,5 @@
 # Comparador de Preços
 
-[https://wemmersonalb.github.io/price-comparator/](PriceComparator)
 
 Este é um projeto simples de comparador de preços que permite ao usuário comparar dois produtos similares e determinar qual é a melhor opção de compra com base no preço por unidade.
 
@@ -30,7 +29,6 @@ Este é um projeto simples de comparador de preços que permite ao usuário comp
 3. Preencha os campos para os dois produtos que deseja comparar.
 4. Clique no botão "Comparar" para ver o resultado.
 5. Para fazer uma nova comparação, clique no botão "Nova Comparação".
-6. É possível também acessar o site https://wemmersonal.github.io/price-comparator
 
 ## Exemplo de Uso
 
